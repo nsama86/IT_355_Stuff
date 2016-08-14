@@ -1,0 +1,20 @@
+video{
+  -moz-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  transform: rotate(90deg);
+  height: 50%;
+  width: 50%;
+}
+
+.centering{
+  text-align: center;
+}
+
+.video_padding{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+USE jhawks_animals;
+
+DROP TABLE IF EXISTS animals;
+
+CREATE TABLE animals(
+  animal_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  animal_name VARCHAR(45) NOT NULL,
+  animal_type VARCHAR(45) NOT NULL,
+  PRIMARY KEY  (animal_id) 
+);
